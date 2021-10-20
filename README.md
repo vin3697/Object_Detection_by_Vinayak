@@ -7,3 +7,9 @@ The conifgration and weight files has been loaded in my main code so that it cla
 
 It captures the frame and detects the object depending upon the weights of pretrained DNN model and at Ouput layer it gives us the probability.
 We capture the label which has the hightest probability and that label is displayed on the frame window.
+
+
+I have tried the object detection with YOLOV3 tiny as well as with YOLOV4 tiny, I observed that the result is less accurate but the speed has increased.
+
+To do the detection with yolov3-tiny and yolov4-tiny just download the weigth and config file from the webiste.
+And you have to change the file names in the code as well, in code on line 5 - we have to give the dnn network the yolo version which you want to use!!

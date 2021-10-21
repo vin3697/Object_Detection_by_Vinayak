@@ -14,3 +14,4 @@ On CPU YOLov4 tiny is pretty much fast compared to YOLOv3 tiny!
 
 To do the detection with yolov3-tiny and yolov4-tiny just download the weigth and config file from the webiste.
 And you have to change the file names in the code as well, in code on line 5 - we have to give the dnn network the yolo version which you want to use!!
+![Object-Detection](https://user-images.githubusercontent.com/92587549/138365063-2842e170-0a4d-4096-a9f6-1315296b8d87.jpeg)
